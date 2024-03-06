@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.retangulo { box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+width: 50%;
+padding-top: 0px;}
+
+body { display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+section { font-size: 50px;
+margin-top: 100px;
+font-family: 'Inter', sans-serif;
+}
+
+.titulo { font-family: 'Inter';
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px 20px 0 0 ;
+height: 300px;
+font-weight: 500;
+background: linear-gradient(90deg, #FF7A24 -9.78%, #C97BA5 100%);;
+font-size: 50px;
+color: #FFFFFF;
+}
+
+.usuario { font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 28px;
+border: 2px solid #000000;
+border-radius: 20px;
+color: #000000;
+padding: 10px;
+text-align: center;
+background-color: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+
+.usuario::placeholder{
+font-size: 24px;
+text-align: center;
+color: #000000;
+}
+
+.senha { font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+border: 2px solid #000000;
+border-radius: 20px;
+color: #000000;
+padding: 10px;
+text-align: center;
+background-color: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+
+.senha::placeholder { font-size: 24px;
+text-align: center;
+color: #000000;
+}
+
+.esqueceu { color: #4285F4;
+text-decoration: none;
+font-family: 'Inter', sans-serif;
+font-size: 23px;
+}
+
+.checkbox { font-weight: bold;
+}
+
+.entrar { font-family: 'Inter', sans-serif;
+background: black;
+border-radius: 20px;
+font-weight: 500;
+font-size: 28px;
+text-align: center;
+color: #FFFFFF;
+padding: 20px;
+width: 300px;
+text-decoration: none;
+}
+
+form { display: flex;
+flex-direction: column;
+width: 40%;
+justify-content: center;
+align-items: center;
+font-size: .5em;
+margin-top: 2vh;}
+
+
+main { display: flex;
+justify-content: center;
+align-items: center;
+height: 98vh;
+}
+
+section{ width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+span { margin-top: 20px;
+}
+
+.JaPossui { font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.conta { font-family: 'Inter', sans-serif;
+font-size: 25px;
+}
+
+.entrar2 { color: #4285F4;
+text-decoration: none;
+font-family: 'Inter', sans-serif;
+font-size: 25px;
+}
+
+.inputs { display: flex;
+gap: 30px;
+margin-bottom: 20px;
+}
+
+.inputs input { width: 270px;
+}
+
+.ManterConect { width: 5090px;
+}

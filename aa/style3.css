@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body { box-sizing: border-box;
+margin: 0;
+}
+
+.retangulo { width: 100%;
+height: 15rem;
+background: rgba(247, 109, 117, 0.65);
+}
+
+.flexNav{ flex-direction: row;
+justify-content: center;
+gap: 60px;
+display: flex;
+align-items: center;
+align-self: center;
+}
+
+.logo { width: 100px;
+height: 100px;
+}
+
+.divParaVoce { display: flex;
+flex-direction: row;
+font-size: center;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+
+.foto1 { width: 68px;
+height: 68px;
+}
+
+.foto2 { height: 58px;
+width: 72px; 
+}
+
+.foto3 { width: 68px;
+height: 68px;
+}
+
+.foto4 { width: 71px;
+height: 70px;
+}
+
+.foto5 { height: 20px;
+width: 75px;  
+}
+
+.pv { font-family: 'Inter';
+font-weight: 400;
+font-size: 22px;
+}
+
+.comente { font-family: 'Inter';
+font-weight: 500;
+font-size: 45px;
+text-align: left;
+gap: 30px;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+
+.problema { width: 400px;
+height: 50px;
+background: #FFFFFF;
+border-radius: 40px;
+border: 0px;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 24px;
+color: #000000;
+padding: 20px;
+text-decoration: none;
+display: flex;
+text-align: center;
+}
+
+.perguntas { font-family: 'Inter';
+font-weight: 400;
+font-size: 35px;
+}
+    

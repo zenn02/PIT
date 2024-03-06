@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.retangulo { background: linear-gradient(90deg, #FF7A24 -12.43%, #C97BA5 100%);
+border-radius: 25px;
+width: 756px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 5rem;
+margin-bottom: 5rem;
+height: 823px;
+}
+
+
+.titulo { font-family: 'Inter', sans-serif;
+font-weight: 500;
+font-size: 50px;
+line-height: 61px;
+color: #FFFFFF;
+}
+
+.google {   display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 28px;
+padding: 20px;
+width: 450px;
+text-decoration: none;
+background-color: transparent;
+border: 2px solid #000000;
+border-radius: 20px;
+}
+
+.foto { width: 30px;
+height: 30px;
+margin-top: 8px;
+}
+
+.ou { font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+color: white;
+}
+
+.nomezao { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.senha {  font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+border: 2px solid #000000;
+border-radius: 20px;
+color: #000000;
+padding: 10px;
+text-align: center;
+background-color: transparent;
+}
+
+.inputLogin {  font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 28px;
+border: 2px solid #000000;
+border-radius: 20px;
+color: #000000;
+padding: 20px;
+text-align: center;
+background-color: transparent;
+}
+
+.inputLogin::placeholder{
+font-size: 24px;
+text-align: center;
+color: #000000;
+}
+
+#cadastrar { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+background: black;
+border-radius: 20px;
+font-weight: 600;
+font-size: 28px;
+text-align: center;
+color: #FFFFFF;
+padding: 20px;
+width: 300px;
+text-decoration: none;
+}
+
+.nome {  font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+border: 2px solid #000000;
+border-radius: 20px;
+color: #000000;
+padding: 10px;
+text-align: center;
+background-color: transparent;
+}
+    
+
+.conta { font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+.entrar { font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+text-decoration: none;
+color: black;
+}
+
+body { text-align: center;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+form { display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+input { margin-right: 10px;
+}
+
+.JaPossui { display: flex;
+align-items: center;
+gap: 0.5rem;
+justify-content: center;
+}
+
+.emailzao{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.emailzao input{
+    width: 300px;
+}
